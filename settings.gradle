@@ -1,2 +1,3 @@
 rootProject.name='AS36DataBindingIncludeIssueSample'
 include ':app'
+include ':module1'
