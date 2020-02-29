@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.lifecycleOwner = this
 
-        binding.sampleText.text = "Hello Binding!"
+        binding.part1.sampleText.text = "Hello Binding!"
     }
 }
